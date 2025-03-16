@@ -43,8 +43,10 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
-	implementation "dev.langchain4j:langchain4j-core"
-	implementation "dev.langchain4j:langchain4j-web-search-engine-tavily"
+	implementation 'dev.langchain4j:langchain4j-core'
+	implementation 'dev.langchain4j:langchain4j-web-search-engine-tavily'
+
+	implementation "jakarta.validation:jakarta.validation-api:${validationApi_version}"
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
