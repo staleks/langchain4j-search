@@ -1,4 +1,4 @@
-package rs.in.staleks.ai.search.model;
+package rs.in.staleks.ai.search.model.tavily;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package rs.in.staleks.ai.search.model;
+package rs.in.staleks.ai.search.model.tavily;
 
 import lombok.Data;
 
